@@ -3,10 +3,19 @@
   padding: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
 }
 
 nav {
   font-size: 20px;
+}
+
+nav .navbar-toggler {
+  margin-top: 20px;
+}
+
+nav .navbar-brand {
+  margin-top: 20px;
 }
 
 nav .navbar-brand img {
@@ -15,12 +24,12 @@ nav .navbar-brand img {
 
 nav .search-form {
   position: relative;
-  margin-left: 10px;
+  margin-top: 20px;
 }
 
 nav .search-form input {
   border-radius: 50px;
-  width: 400px !important;
+  max-width: 100% !important;
   height: 44px;
 }
 
@@ -37,27 +46,63 @@ nav .search-form button {
 }
 
 nav .ic-nav {
-  margin-left: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-top: 20px;
+  margin-left: 5px;
 }
 
 nav .ic-nav .cart {
-  margin-top: 5px;
   width: 30px;
 }
 
 nav .ic-nav .bell {
-  margin-top: 3px;
+  margin-left: 20px;
+  margin-top: -3px;
   width: 40px;
-  margin-left: 30px;
 }
 
 nav .rounded {
-  margin-top: 7px;
-  margin-left: 10px;
   height: 40px;
   width: 40px;
   background-color: #bbb;
   border-radius: 50% !important;
   display: inline-block;
+}
+
+@media (min-width: 990px) {
+  nav .navbar-brand {
+    margin-top: 20px;
+  }
+  nav .navbar-nav {
+    margin-top: 20px;
+    font-size: 1.2rem;
+  }
+  nav .search-form {
+    margin-top: 20px;
+  }
+  nav .search-form input {
+    width: 440px !important;
+    margin-left: 10px;
+  }
+  nav .ic-nav {
+    margin-left: 50px;
+  }
+  nav .ic-nav .cart {
+    margin-top: 5px;
+  }
+  nav .ic-nav .bell {
+    margin-top: 0 !important;
+    margin-left: 30px;
+  }
+  nav .ic-nav .rounded {
+    margin-top: 7px;
+    margin-left: 10px;
+  }
 }
 /*# sourceMappingURL=style.css.map */
