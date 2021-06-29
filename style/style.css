@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+nav {
+  font-size: 20px;
+}
+
+nav .navbar-brand img {
+  width: 175px;
+}
+
+nav .search-form {
+  position: relative;
+  margin-left: 10px;
+}
+
+nav .search-form input {
+  border-radius: 50px;
+  width: 400px !important;
+  height: 44px;
+}
+
+nav .search-form img {
+  width: 20px;
+  height: 20px;
+}
+
+nav .search-form button {
+  position: absolute;
+  background-color: #fff;
+  top: 2px;
+  right: 15px;
+}
+
+nav .ic-nav {
+  margin-left: 50px;
+}
+
+nav .ic-nav .cart {
+  margin-top: 5px;
+  width: 30px;
+}
+
+nav .ic-nav .bell {
+  margin-top: 3px;
+  width: 40px;
+  margin-left: 30px;
+}
+
+nav .rounded {
+  margin-top: 7px;
+  margin-left: 10px;
+  height: 40px;
+  width: 40px;
+  background-color: #bbb;
+  border-radius: 50% !important;
+  display: inline-block;
+}
+/*# sourceMappingURL=style.css.map */
