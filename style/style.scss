@@ -160,6 +160,62 @@ nav{
  }
 
 
+.main-container{
+  display: flex;
+  width: 100rem;
+  margin: 0 auto;
+  margin-top: 2rem;
+   .category-section {
+     width: 23rem;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25),
+    0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 1rem;
+     font-size: 1rem;
+     font-weight: 500;
+     text-decoration: none;
+   }
+   .products-section {
+     width: 90rem;
+     border-radius: 1rem;
+     box-shadow: 0px 1px 2px rgba(58, 58, 68, 0.24),
+     0px 2px 4px rgba(90, 91, 106, 0.24);
+     .products{
+       margin-top: 1rem;
+       display: flex;
+       flex-wrap: wrap;
+       .card{
+         margin-right: .5rem;
+         margin-bottom: 1rem;
+       }
+     }
+   }
+
+}
+
+footer{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 5rem;
+  margin-bottom: 4rem;
+  .footer-text{
+    margin-top: 2rem;
+    list-style-type: none;
+    .text-bold{
+      font-size: 1.2rem;
+      font-weight: bold;
+    }
+  }
+  .footer-logo{
+    img{
+      max-width: 32rem;
+    }
+    p{
+      margin-top: 1rem;
+      max-width: 23rem;
+    }
+  }
+}
+
 
 @media (min-width:990px) {
   nav{
@@ -226,9 +282,11 @@ nav{
   html{
     font-size: 12px;
   }
-  .hot-today-section{
-    opacity: 0;
-  }
+ .main-container{
+   max-width: 60rem;
+   margin: 0 auto;
+   margin-top: 1.5rem;
+ }
 }
 
 @media (max-width:790px) {
