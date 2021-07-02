@@ -15,11 +15,17 @@ nav .navbar-toggler {
 }
 
 nav .navbar-brand {
+  margin-left: 2rem;
   margin-top: 1.25rem;
 }
 
 nav .navbar-brand img {
-  width: 11rem;
+  max-width: 11rem;
+}
+
+nav .navbar-section {
+  margin-top: 1rem;
+  margin-left: 2rem;
 }
 
 nav .search-form {
@@ -75,9 +81,15 @@ nav .rounded {
   display: inline-block;
 }
 
-.splide {
+.slide-container-1 {
+  max-width: 1920px;
+  margin: 0 auto;
+}
+
+.slide-container-1 .splide {
   margin: 0 auto;
   margin-top: 30px;
+  width: 100%;
 }
 
 .splide-2 {
@@ -182,6 +194,25 @@ nav .rounded {
   background-color: #fff;
 }
 
+.category-section .dropdown-head {
+  font-weight: 500;
+}
+
+.category-section ul {
+  list-style-type: none;
+}
+
+.category-section ul a {
+  color: #19191D;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+.category-section ul a:hover {
+  color: #26262c;
+  font-weight: 500;
+}
+
 .main-container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -251,19 +282,48 @@ footer .footer-logo p {
   max-width: 23rem;
 }
 
+@media (max-width: 1440px) {
+  .slide-container-1 {
+    max-width: 1440px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .slide-container-1 .splide {
+    margin: 0 auto;
+    margin-top: 30px;
+    width: 100%;
+  }
+}
+
 @media (min-width: 990px) {
   nav .navbar-brand {
     margin-top: 20px;
+    margin-left: 3rem;
   }
   nav .navbar-nav {
     margin-top: 20px;
     font-size: 1.2rem;
   }
+  nav .navbar-section {
+    margin-top: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
   nav .search-form {
     margin-top: 20px;
   }
   nav .search-form input {
-    width: 48rem !important;
+    min-width: 25rem !important;
     margin-left: 10px;
   }
   nav .ic-nav {
@@ -281,7 +341,7 @@ footer .footer-logo p {
     margin-left: 10px;
   }
   .splide {
-    width: 62.5rem !important;
+    max-width: 62.5rem !important;
     margin: 0 auto;
     margin-top: 30px;
   }
@@ -305,7 +365,7 @@ footer .footer-logo p {
 
 @media (max-width: 990px) {
   html {
-    font-size: 12px;
+    font-size: 11px;
   }
   .main-container {
     max-width: 60rem;
@@ -316,13 +376,13 @@ footer .footer-logo p {
 
 @media (max-width: 790px) {
   html {
-    font-size: 11px;
+    font-size: 10px;
   }
 }
 
 @media (max-width: 690px) {
   html {
-    font-size: 10px;
+    font-size: 9px;
   }
 }
 

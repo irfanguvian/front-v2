@@ -12,10 +12,15 @@ nav{
     margin-top: 1.25rem;
   }
  .navbar-brand{
+   margin-left: 2rem;
    margin-top: 1.25rem;
   img{
-   width: 11rem;
+   max-width: 11rem;
   }
+ }
+ .navbar-section {
+   margin-top: 1rem;
+  margin-left: 2rem;
  }
   .search-form {
     position: relative;
@@ -63,10 +68,17 @@ nav{
  }
 }
 
-  .splide {
-    margin: 0 auto;
-    margin-top: 30px;
-  }
+.slide-container-1{
+  max-width: 1920px;
+  margin: 0 auto;
+   .splide {
+     margin: 0 auto;
+     margin-top: 30px;
+     width: 100%;
+   }
+}
+
+
 
 .splide-2 {
   margin-top: 50px;
@@ -159,6 +171,23 @@ nav{
    }
  }
 
+.category-section{
+  .dropdown-head{
+    font-weight: 500;
+  }
+  ul{
+    list-style-type: none;
+    a{
+      color:  #19191D;
+      font-weight: 400;
+      text-decoration: none;
+    }
+    a:hover{
+      color: #26262c;
+      font-weight: 500;
+    }
+  }
+}
 
 .main-container{
   display: flex;
@@ -192,6 +221,8 @@ nav{
 
 }
 
+
+
 footer{
   display: flex;
   justify-content: space-around;
@@ -216,24 +247,42 @@ footer{
   }
 }
 
+@media(max-width:1440px){
+  .slide-container-1 {
+    max-width: 1440px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .splide {
+      margin: 0 auto;
+      margin-top: 30px;
+      width: 100%;
+    }
+  }
+}
 
 @media (min-width:990px) {
   nav{
     .navbar-brand{
       margin-top: 20px;
+      margin-left: 3rem;
     }
     .navbar-nav{
       margin-top: 20px;
       font-size: 1.2rem;
     }
+    .navbar-section {
+      margin-top: 0;
+      display: flex;
+      justify-content: space-around;
+    }
     .search-form {
       margin-top: 20px;
-      input {
-        width: 48rem !important;
+      input {  
+        min-width: 25rem !important;
         margin-left: 10px;
       }
     }
-
     .ic-nav {
       margin-left: 100px;
 
@@ -254,10 +303,9 @@ footer{
   }
 
     .splide {
-      width: 62.5rem !important;
+      max-width: 62.5rem !important;
       margin: 0 auto;
       margin-top: 30px;
-
       img {
         width: 62,5rem;
       }
@@ -280,7 +328,7 @@ footer{
 
 @media (max-width:990px){
   html{
-    font-size: 12px;
+    font-size: 11px;
   }
  .main-container{
    max-width: 60rem;
@@ -291,13 +339,13 @@ footer{
 
 @media (max-width:790px) {
   html {
-    font-size: 11px;
+    font-size: 10px;
   }
 }
 
 @media (max-width:690px) {
   html {
-    font-size: 10px;
+    font-size: 9px;
   }
 }
 
