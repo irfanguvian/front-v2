@@ -10,6 +10,8 @@ function sliderOne() {
       right: '5rem',
       left: '5rem',
     },
+    autoWidth: true,
+    focus: 'center',
   }).mount()
 }
 
