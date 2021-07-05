@@ -298,6 +298,7 @@ nav .rounded {
 
 .main-container .products-section .products {
   margin-top: 1rem;
+  margin-left: -1rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -308,6 +309,145 @@ nav .rounded {
 .main-container .products-section .products .card {
   margin-right: .5rem;
   margin-bottom: 1rem;
+}
+
+.main-container .products-section .products-tag {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 1rem;
+  margin-left: 1.5rem;
+}
+
+.main-container .products-section .products-tag .btn-rounded {
+  margin-left: 0.5rem;
+  width: 6rem;
+  height: 2rem;
+  font-size: .8rem;
+  color: #4A4B57;
+  text-align: center;
+  border-radius: 6rem !important;
+  background: #EDEDF0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-decoration: none;
+}
+
+.main-container .products-section .products-tag .btn-rounded:hover {
+  color: #3e3f47;
+  font-weight: bolder;
+}
+
+.main-container .products-section .products-tag p {
+  font-weight: 500;
+  margin-top: .3rem;
+}
+
+.main-container .products-section .product-options {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 1rem;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.main-container .products-section .product-options .products-option-left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.main-container .products-section .product-options .products-option-left .products-sorting {
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+  border-right: 1px solid #5A5B6A;
+  border-left: 1px solid #5A5B6A;
+  border-bottom: 1px solid #5A5B6A;
+  width: 15rem;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 4px;
+  position: relative;
+}
+
+.main-container .products-section .product-options .products-option-left .products-sorting a {
+  width: 100%;
+  text-align: start;
+  position: relative;
+}
+
+.main-container .products-section .product-options .products-option-left .products-sorting a i {
+  position: absolute;
+  right: 1rem;
+}
+
+.main-container .products-section .product-options .products-option-left .products-sorting h2 {
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: -2px;
+  text-align: start;
+  border-bottom: 1px solid #000;
+  font-weight: 500;
+  font-size: 0.6rem;
+  line-height: 0.1rem;
+  border-radius: 4px;
+}
+
+.main-container .products-section .product-options .products-option-left .products-sorting h2 span {
+  background: #fff;
+  margin-left: 0.6rem;
+  padding: 0 2px;
+}
+
+.main-container .products-section .product-options .products-option-left .products-condition {
+  width: 15rem;
+  position: relative;
+  border: 1px solid #B4B4BB;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 4px;
+}
+
+.main-container .products-section .product-options .products-option-left .products-condition a i {
+  position: absolute;
+  right: 1rem;
+}
+
+.main-container .products-section .product-options .products-option-right {
+  margin-right: 1rem;
+}
+
+.main-container .products-section .product-options .products-option-right .btn-link {
+  margin: 0 -0.2rem;
+  font-size: 0.8rem;
+  background: #EBF2FF;
+  border-radius: 4px;
+  max-width: 8rem;
+  height: 2rem;
+  text-decoration: none;
+}
+
+.main-container .products-section .product-options .products-option-right .btn-link a {
+  word-wrap: none;
+  text-align: center;
+  color: #2264D1;
+}
+
+.main-container .products-section .product-options .products-option-right .btn-link.actived {
+  background: #fff;
+  -webkit-box-shadow: 0px 1px 2px rgba(27, 78, 163, 0.24), 0px 2px 4px rgba(41, 121, 255, 0.24);
+          box-shadow: 0px 1px 2px rgba(27, 78, 163, 0.24), 0px 2px 4px rgba(41, 121, 255, 0.24);
+  border-radius: 4px;
 }
 
 footer {
@@ -339,9 +479,15 @@ footer .footer-logo p {
   max-width: 23rem;
 }
 
+@media (min-width: 2560px) {
+  html {
+    font-size: 40px;
+  }
+}
+
 @media (min-width: 1440px) {
   html {
-    font-size: 24px;
+    font-size: 30px;
   }
   nav .search-form {
     min-width: 50rem !important;
@@ -359,6 +505,13 @@ footer .footer-logo p {
   .slide-container-1 .splide__slide {
     width: 1500px;
     padding-left: 50px;
+  }
+  .main-container .category-container {
+    margin-top: 0.5rem;
+    margin-left: auto;
+  }
+  .main-container .products-section {
+    margin-right: auto;
   }
 }
 
