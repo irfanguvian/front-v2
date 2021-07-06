@@ -1,0 +1,169 @@
+@media (min-width:1440px) {
+ html {
+  font-size: 30px;
+ }
+
+ nav {
+  .search-form {
+   min-width: 50rem !important;
+
+   input {
+    height: 2.5rem;
+   }
+  }
+ }
+
+ .hot-today-section {
+  width: 100rem !important;
+
+  .splide-2 {
+   .splide__track {
+    width: 90rem;
+    margin-left: -18rem;
+   }
+  }
+ }
+
+ .slide-container-1 {
+  .splide__slide {
+   width: 1500px;
+   padding-left: 50px;
+  }
+ }
+
+ .main-container {
+  .category-container {
+   margin-top: 0.5rem;
+   margin-left: auto;
+  }
+
+  .products-section {
+   margin-right: auto;
+  }
+ }
+}
+
+
+@media(max-width:1440px) {
+ .slide-container-1 {
+  max-width: 1440px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .splide {
+   margin: 0 auto;
+   margin-top: 30px;
+   width: 100%;
+  }
+
+  .splide__slide {
+   width: 800px;
+   padding-left: 50px;
+  }
+ }
+}
+
+@media (min-width:990px) {
+ nav {
+  .navbar-brand {
+   margin-top: 20px;
+   margin-left: 3rem;
+  }
+
+  .navbar-nav {
+   margin-top: 20px;
+   font-size: 1.2rem;
+  }
+
+  .navbar-section {
+   margin-top: 0;
+   display: flex;
+   justify-content: space-around;
+  }
+
+  .search-form {
+   margin-top: 1.4rem;
+
+   input {
+    min-width: 25rem !important;
+    margin-left: .6rem;
+   }
+  }
+
+  .ic-nav {
+   margin-left: 100px;
+
+   .cart {
+    margin-top: 5px;
+   }
+
+   .bell {
+    margin-top: 0 !important;
+    margin-left: 30px;
+   }
+
+   .rounded {
+    margin-top: 7px;
+    margin-left: 10px;
+   }
+  }
+ }
+
+ .splide {
+  max-width: 62.5rem !important;
+  margin: 0 auto;
+  margin-top: 30px;
+
+  img {
+   width: 62, 5rem;
+  }
+ }
+
+ .hot-today-section {
+  position: relative;
+  width: 70rem;
+  height: 38rem;
+  background: rgba(196, 196, 196, 0.19);
+  border-radius: 102px;
+  margin: 0 auto;
+  margin-top: 30px;
+
+  .text {
+   font-weight: 700;
+   font-size: 3rem;
+   padding-top: 3rem;
+   padding-left: 5.5rem;
+  }
+ }
+}
+
+@media (max-width:990px) {
+ html {
+  font-size: 11px;
+ }
+
+ .main-container {
+  max-width: 60rem;
+  margin: 0 auto;
+  margin-top: 1.5rem;
+ }
+}
+
+@media (max-width:790px) {
+ html {
+  font-size: 10px;
+ }
+}
+
+@media (max-width:690px) {
+ html {
+  font-size: 9px;
+ }
+}
+
+@media (max-width:600px) {
+ html {
+  font-size: 8px;
+ }
+}

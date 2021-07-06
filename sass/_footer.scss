@@ -1,0 +1,27 @@
+footer {
+ display: flex;
+ justify-content: space-around;
+ margin-top: 5rem;
+ margin-bottom: 4rem;
+
+ .footer-text {
+  margin-top: 2rem;
+  list-style-type: none;
+
+  .text-bold {
+   font-size: 1.2rem;
+   font-weight: bold;
+  }
+ }
+
+ .footer-logo {
+  img {
+   max-width: 32rem;
+  }
+
+  p {
+   margin-top: 1rem;
+   max-width: 23rem;
+  }
+ }
+}

@@ -1,0 +1,11 @@
+$font-family:(
+ "primary" : 'Inter',
+ "second" : 'Quicksand',
+ "third" : 'Roboto' ,
+);
+
+@function mapping($key){
+ @return map-get($font-family, $key);
+}
+
+

@@ -5,7 +5,7 @@
   padding: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter";
 }
 
 nav {
@@ -104,19 +104,6 @@ nav .rounded {
   display: flex;
 }
 
-.hot-today-section {
-  width: 100%;
-  height: 42.9rem;
-  background: rgba(196, 196, 196, 0.19);
-  border-radius: 8rem;
-  margin: 0 auto;
-}
-
-.hot-today-section .text {
-  font-size: 3rem;
-  font-weight: bold;
-}
-
 .card {
   margin-left: 50px;
   width: 18rem;
@@ -195,6 +182,19 @@ nav .rounded {
   color: #2264D1;
   font-size: 0.8rem;
   background-color: #fff;
+}
+
+.hot-today-section {
+  width: 100%;
+  height: 42.9rem;
+  background: rgba(196, 196, 196, 0.19);
+  border-radius: 8rem;
+  margin: 0 auto;
+}
+
+.hot-today-section .text {
+  font-size: 3rem;
+  font-weight: bold;
 }
 
 .main-container {
@@ -479,12 +479,6 @@ footer .footer-logo p {
   max-width: 23rem;
 }
 
-@media (min-width: 2560px) {
-  html {
-    font-size: 40px;
-  }
-}
-
 @media (min-width: 1440px) {
   html {
     font-size: 30px;
@@ -583,7 +577,7 @@ footer .footer-logo p {
     margin-top: 30px;
   }
   .splide img {
-    width: 62,5rem;
+    width: 62, 5rem;
   }
   .hot-today-section {
     position: relative;
